@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bg-hero {
+    @apply bg-no-repeat bg-center bg-cover;
+    background-image: url(./assets/images/desktop/image-hero.jpg);
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-hero {
+    background-image: url(./assets/images/mobile/image-hero.jpg);
+  }
+}
