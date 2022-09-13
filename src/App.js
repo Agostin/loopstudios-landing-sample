@@ -64,7 +64,7 @@ const App = () => {
     {
       title: "The Curiosity",
       imgMobile: curiosityImageMobile,
-      imgDesktop: curiosityImageMobile,
+      imgDesktop: curiosityImageDesktop,
     },
     {
       title: "Make It Fisheye",
